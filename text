@@ -1,0 +1,35 @@
+nodemon : File C:\Users\sneha\AppData\Roaming\npm\nodemon.ps1 cannot be loaded because running scripts 
+is disabled on this system 
+For solving the error write in terminal this command 
+
+step1:-set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+step2:-Get-ExecutionPolicy
+step3:-Get-ExecutionPolicy -list
+
+
+req.file present under(data):-
+
+// {
+// "data": [
+// {
+// "fieldname": "pdfs",
+// "originalname": "1.pdf",
+// "encoding": "7bit",
+// "mimetype": "application/pdf",
+// "destination": "uploads/",
+// "filename": "3346969750d692797af68eb362a121ae",
+// "path": "uploads\\3346969750d692797af68eb362a121ae",
+// "size": 286489
+// },
+// {
+// "fieldname": "pdfs",
+// "originalname": "2.pdf",
+// "encoding": "7bit",
+// "mimetype": "application/pdf",
+// "destination": "uploads/",
+// "filename": "46bd8e96a265e0387e6b31210ffde51b",
+// "path": "uploads\\46bd8e96a265e0387e6b31210ffde51b",
+// "size": 336099
+// }
+// ]
+// }
